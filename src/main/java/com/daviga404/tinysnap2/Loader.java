@@ -288,7 +288,6 @@ public class Loader {
 	
 	public static void main(String[] args) {
 		
-		//TODO: Make this load natives, and create process with -Djava.library.path and TinySnap as main class.
 		new Loader();
 		
 	
