@@ -59,7 +59,7 @@ public class WindowSetup extends JFrame implements ActionListener {
 		p.setLayout(layout);
 		p.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
 		
-		p.add(new JLabel("<html>Welcome to TinySnap! I'm not fucking psychic,<br>therefore I require some credentials and shit.</html>"), "span 6, wrap");
+		p.add(new JLabel("<html>Welcome to TinySnap! Please input your<br>FTP details for uploading.</html>"), "span 6, wrap");
 		
 		p.add(new JLabel("FTP Host: "), "span 2");
 		p.add(ftpHost, "span 4, grow, wrap, h 25");

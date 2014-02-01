@@ -16,7 +16,7 @@ public class ErrorHandler {
 					  .append("]\r\n");
 						
 		}
-		JOptionPane.showMessageDialog(null, "Shit! TinySnap has died. If it's of any use to you, here's the error:\r\n\r\n" + e.getMessage() + "\r\n\r\nStack trace:\r\n" + stackTrace.toString());
+		JOptionPane.showMessageDialog(null, "Oh no! TinySnap has died. If it's of any use to you, here's the error:\r\n\r\n" + e.getMessage() + "\r\n\r\nStack trace:\r\n" + stackTrace.toString());
 		System.exit(0);
 	}
 	
