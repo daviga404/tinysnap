@@ -18,7 +18,7 @@ TinySnap is a project that aims to simplify the process of taking a screenshot. 
 
 ## Installation<a id="#installation"></a>
 
-  1. Run `maven install` to install dependencies and build TinySnap, or download a pre-compiled exe/jar from the [releases page](https://github.com/daviga404/TinySnap2/releases).
+  1. Run `mvn install` to install dependencies and build TinySnap, or download a pre-compiled exe/jar from the [releases page](https://github.com/daviga404/TinySnap2/releases).
   2. Open TinySnap (located in 'target' if built with maven)
   3. Enter details of FTP access, and public URL of web server.
 
@@ -28,6 +28,6 @@ Currently, the set hotkey is `CTRL + 1`, but a configurable hotkey is a planned 
 ## Pull Requests<a id="#pull-requests"></a>
 To install the dependencies, simply run
 ```
-maven clean install
+mvn clean install
 ```
 Feel free to submit a pull request with any bug features/improvements!
